@@ -5,7 +5,7 @@
 
 `docker images`
 
-`docker run --name remnux-sift -it ubuntu:rolling bash`
+`docker run --name <container-name (not the image)> -it ubuntu bash`
 
 `docker cp ./remnux_install.sh remnux-sift:/root`
 
